@@ -1,0 +1,405 @@
+/* =================================================
+Common CSS
+================================================= */
+
+* {
+    color: #3D3D3D;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cnotainer {
+    width: 64rem;
+    margin: 0 auto;
+}
+
+/* =================================================
+Header Area
+================================================= */
+
+.header_area {
+    background: #EFEBE3;
+    padding-top: 1rem;
+}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_area {
+    width: 30rem;
+}
+
+.logo_area>img {
+    width: 7rem;
+}
+
+.menu_area>ul {
+    width: 13rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_area>ul>li {
+    list-style: none;
+}
+
+.menu_area>ul>li>a {
+    text-decoration: none;
+}
+
+.others_area {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.sarch_area {
+    display: flex;
+    align-items: center;
+}
+
+.sarch_area>li {
+    list-style: none;
+    margin-left: .8rem;
+}
+
+.sarch_area>li>img {
+    width: 1rem;
+}
+
+.Register_area,
+.sarch_area {
+    margin-left: 1rem;
+}
+
+.Register_area>button {
+    font-size: .9rem;
+    border: 0 none;
+    border-radius: .3rem;
+    padding: .2rem 1rem;
+}
+
+.Register_area>button:first-child {
+    border: .1rem solid #8BCB7F;
+}
+
+.Register_area>button:last-child {
+    background: #179800;
+    color: #FFFFFF;
+    border: .1rem solid #179800;
+}
+
+/* =================================================
+Header Content Area
+================================================= */
+
+.content {
+    display: grid;
+    justify-content: center;
+    padding-top: 4rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.content>h1 {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.content>h1>span {
+    color: #179800;
+    font-size: 2.5rem;
+}
+
+.content>img {
+    width: 45rem;
+}
+
+/* =================================================
+Service Area
+================================================= */
+
+.service_Area {
+    padding: 2rem 0 5rem 0;
+}
+
+.service_Area>h1 {
+    color: #179800;
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+.services {
+    display: flex;
+    gap: .5rem;
+}
+
+.child_cervice {
+    background: #EFEBE3;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+
+.child_cervice>img {
+    width: 6rem;
+}
+
+.child_cervice>h2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.child_cervice>p {
+    color: #7B7875;
+}
+
+/* =================================================
+Popular Products
+================================================= */
+
+.products_area {
+    background: #EFEBE3;
+    padding: 5rem 0;
+}
+
+.inner_products>h1 {
+    color: #179800;
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+.product {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 13rem);
+    justify-content: space-between;
+}
+
+.child_product {
+    background: #FFFFFF;
+    border-radius: .5rem;
+    padding: .7rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.product_img>img {
+    background: #EFEBE3;
+    border-radius: .5rem;
+}
+
+.product_content>p,
+h2 {
+    margin: .2rem 0;
+}
+
+/* =================================================
+Offers Area
+================================================= */
+
+.offers_area {
+    background-color: #FFFFFF;
+    padding: 5rem 0 20rem 0;
+}
+
+.inner_offers_area h1 {
+    color: #179800;
+    font-size: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rice {
+    background: #115414;
+    border-radius: .5rem;
+    width: 33rem;
+    padding: 2rem .5rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers_content>img {
+    width: 11rem;
+}
+
+.offers_content>button {
+    color: #FFFFFF;
+    background: #63B76D;
+    border: none;
+    border-radius: .5rem;
+    padding: .7rem 2rem;
+}
+
+.offers_content>h2,
+span {
+    color: #C4D4C4;
+    font-size: 1.5rem;
+}
+
+.offers_content>h2>span {
+    color: #FFFFFF;
+    font-weight: bolder
+}
+
+
+.offers_content button,
+h2 {
+    margin-top: 1.5rem;
+}
+
+.offers_img>img {
+    width: 17rem;
+}
+
+/* ------------ITEM2------------ */
+
+.item2 {
+    background: #102861;
+    width: 25rem;
+    padding: 1rem .5rem 0 1.5rem;
+}
+
+.item2>.offers_content>img {
+    width: 4rem;
+}
+
+.item2>.offers_content>button {
+    background: #2A4D97;
+}
+
+.item2>.offers_img>img {
+    width: 9rem;
+}
+
+
+/* =================================================
+Footer Area
+================================================= */
+
+
+/********* Grocery Area *********/
+
+.footer_area {
+    background-color: #179800;
+    padding-bottom: 2rem;
+}
+
+
+.grocery_area {
+    background: #EFEBE3;
+    border-radius: 1rem;
+    height: 17rem;
+    padding: 3rem 0;
+    position: relative;
+    top: -11.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_area>img {
+    width: 23rem;
+}
+
+.content_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_area>h1, p, input{
+    margin-bottom: 1.8rem;
+}
+
+.content_area>h1 {
+    color: #111111;
+    font-size: 1.6rem;
+}
+
+.content_area>input {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: .3rem;
+    padding: .5rem;
+    height: 1.7rem;
+    width: 80%;
+}
+
+.content_area>input::placeholder {
+    color: #C4D4C4;
+    font-size: .8rem;
+}
+
+.content_area>button{
+    background: #179800;
+    color: #FFFFFF;
+    font-size: .9rem;
+    border: 0 none;
+    border-radius: .3rem;
+    padding: .2rem 1rem;
+    height: 2rem;
+    width: 7.3rem;
+}
+
+/********* Main Footer Area *********/
+
+.main_footer{
+    position: relative;
+    top: -5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo{
+    margin-bottom: .7rem;
+}
+
+.footer_logo>img{
+    width: 6.5rem;
+}
+
+.footer_content_area>p{
+    color: #EFEBE3;
+}
+
+.about_area>ul>li{
+    color: #EFEBE3;
+    margin-bottom: 1.5rem;
+    list-style: none;
+}
+
+.social_area{
+    margin-top: 3rem;
+}
+
+.social_area>h2{
+    color: #EFEBE3;
+    margin-bottom: .3rem;
+}
+
+.social_area>ul{
+    display: flex;
+    justify-content: end;
+    gap: 1.3rem;
+}
+
+.social_area>ul>li{
+    font-size: 2rem;
+    list-style: none;
+}
